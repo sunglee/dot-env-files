@@ -1,0 +1,133 @@
+{
+  // copy and paste in VSCode settings
+  // Editor
+  "editor.accessibilitySupport": "off",
+  "editor.cursorBlinking": "solid",
+  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 15,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": false,
+  "editor.insertSpaces": true,
+  "editor.lineNumbers": "on",
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderIndentGuides": false,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [80],
+  "editor.scrollBeyondLastLine": true,
+  "editor.selectionHighlight": false,
+  "editor.snippetSuggestions": "top",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 4,
+  "editor.wordWrap": "on",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.exclude": {
+    "**/*.lock": true,
+    "**/package-lock.json": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": false,
+  "files.useExperimentalFileWatcher": true,
+  "search.exclude": {
+    "package-lock.json": true,
+    "yarn.lock": true
+  },
+  "window.closeWhenEmpty": true,
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Night Owl",
+  "workbench.editor.showIcons": false,
+  "workbench.editor.showTabs": true,
+  "workbench.fontAliasing": "auto",
+  "workbench.iconTheme": null,
+  "workbench.startupEditor": "none",
+  // language specific editor settings
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "files.trimTrailingWhitespace": true
+  },
+  "[scss]": {
+    "editor.tabSize": 2,
+    "editor.formatOnPaste": true,
+    "files.trimTrailingWhitespace": true
+  },
+  "[html]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.formatOnPaste": true,
+    "files.trimTrailingWhitespace": true
+  },
+  // Disable maximum amount of characters per line in html
+  "html.format.wrapLineLength": 0,
+  // External Terminal
+  "terminal.external.osxExec": "iTerm.app",
+  // The path of the shell that the terminal uses on Linux.
+  "terminal.integrated.shell.linux": "zsh",
+  // Controls the font family of the terminal, this defaults to editor.fontFamily's value.
+  "terminal.integrated.fontFamily": "Fira Mono for Powerline",
+  // ---
+  // Extension specific settings
+  // ---
+  // Formatting Toggle Extension
+  "formattingToggle.activateFor": ["formatOnPaste", "formatOnSave"],
+  // Eslint
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  // Emmet
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "html": "html",
+    "scss": "sass",
+    "css": "css",
+    "php": "php",
+    "plaintext": "jade",
+    "xml": {
+      "attr_quotes": "single"
+    }
+  },
+  // Document This configuration
+  "docthis.includeDescriptionTag": true,
+  // Rewrap configuration
+  "rewrap.wholeComment": false,
+  "rewrap.wrappingColumn": 80,
+  // Settings Sync
+  "sync.gist": "1c088685319b38a6d900a02c33077527",
+  "sync.autoDownload": true,
+  "sync.autoUpload": true,
+  "sync.forceDownload": false,
+  "sync.quietSync": false,
+  "sync.askGistName": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  // Prettier settings
+  "prettier.printWidth": 99999,
+  // because eslint will do work
+  "prettier.disableLanguages": ["javascript", "javascriptreact", "vue"],
+  // stylelint
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // night owl theme specific settings
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#000C1D",
+    "activityBar.border": "#102a44",
+    "sideBar.background": "#001122",
+    "sideBar.border": "#102a44",
+    "sideBar.foreground": "#8BADC1"
+  },
+  "todohighlight.isCaseSensitive": false,
+  "todohighlight.exclude": ["**/node_modules/**", "**/bower_components/**", "**/dist/**", "**/build/**", "**/.vscode/**", "**/.github/**", "**/_output/**", "**/*.min.*", "**/*.map", "**/.next/**", "**/_next/**"],
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+}
