@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "wesbos"
+  ],
+  "globals": {
+    "_": false,
+    "React": false
+  },
+  "rules": {
+    "react-hooks/exhaustive-deps": 'warn'
+  }
+}
